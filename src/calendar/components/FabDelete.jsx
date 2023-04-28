@@ -1,4 +1,4 @@
-import { useCalendarStore, useUiStore } from '../../hooks';
+import { useCalendarStore } from '../../hooks';
 
 export const FabDelete = () => {
 
@@ -7,7 +7,6 @@ export const FabDelete = () => {
     const handleDelete = () => {
         startDeletingEvent();
     }
-
 
   return (
     <button
